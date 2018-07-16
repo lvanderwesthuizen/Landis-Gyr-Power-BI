@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mssql_jdbc_ms_new-164a2192985-6b61f725f14db30b" provider="mssql" driver="mssql_jdbc_ms_new" name="MS SQL Server - Suprima4_Matzikama" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="1433" server="" database="Suprima4_Matzikama" url="jdbc:sqlserver://localhost;databaseName=Suprima4_Matzikama" user="sqluser" password="IyQVM1YTVhJl8w==" type="dev">
+			<property name="integratedSecurity" value="false"/>
+			<provider-property name="@dbeaver-show-all-schemas@" value="false"/>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" save-password="false">
+				<property name="sshConnectTimeout" value="10000"/>
+				<property name="port" value="22"/>
+				<property name="implementation" value="jsch"/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" save-password="false">
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>
