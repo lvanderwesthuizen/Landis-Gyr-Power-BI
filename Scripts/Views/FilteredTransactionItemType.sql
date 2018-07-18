@@ -1,0 +1,4 @@
+CREATE VIEW FilteredTransactionItemType
+AS
+SELECT transaction_item_type
+FROM dbo.transaction_item_type
