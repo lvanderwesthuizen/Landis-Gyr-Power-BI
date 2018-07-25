@@ -1,0 +1,3 @@
+CREATE VIEW FilteredConsumerChargeSetup
+SELECT consumer_install_id, consumer_unit_id, consumer_id, charge_install_id, charge_type, charge_id, charge_index, consumer_charge_pc_recovery, consumer_charge_period, consumer_charge_purch_limit
+FROM dbo.consumer_charge_setup
