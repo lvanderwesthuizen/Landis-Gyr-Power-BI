@@ -1,0 +1,4 @@
+CREATE VIEW FilteredFixedCharge
+AS
+SELECT charge_install_id, charge_type, charge_id, charge_index, fixed_charge_eff_date, transaction_item_type, fixed_charge_amount, fixed_charge_period, fixed_charge_type, fixed_charge_max, fixed_charge_active, fixed_charge_expired, fixed_charge_adv_or_arr, fixed_charge_period_boundary, fixed_charge_processing, fixed_charge_prorata_first
+FROM dbo.fixed_charge
