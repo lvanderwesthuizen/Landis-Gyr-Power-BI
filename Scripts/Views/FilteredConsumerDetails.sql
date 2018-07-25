@@ -1,6 +1,8 @@
 CREATE VIEW FilteredConsumerDetails
 AS
 SELECT
+	c.consumer_install_id,
+	c.consumer_unit_id,
 	c.consumer_id,
 	cd.consumer_title,
 	cd.consumer_first_names,
@@ -13,7 +15,7 @@ SELECT
 	cd.consumer_address_1 AS address_line_1,
 	cd.consumer_address_2 AS address_line_2,
 	cd.consumer_address_3 AS address_line_3,
-	tstring.item_string AS defiuned_town_name,
+	tstring.item_string AS defined_town_name,
 	cd.consumer_post_zip AS postal_zip,
 	c.consumer_active
 FROM dbo.consumer AS c
